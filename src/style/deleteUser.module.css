@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff4c4c;
+    color: white;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 20px;
+    color: green;
+}
