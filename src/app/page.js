@@ -41,7 +41,7 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="http://localhost:3000/dashboard"
+          href="/dashboard"
           className={styles.card}
           // target="_blank"
           rel="noopener noreferrer"
@@ -53,7 +53,7 @@ export default function Home() {
         </a>
 
         <a
-          href="http://localhost:3000/bank2"
+          href="/bank2"
           className={styles.card}
           // target="_blank"
           rel="noopener noreferrer"
@@ -65,7 +65,7 @@ export default function Home() {
         </a>
 
         <a
-          href="http://localhost:3000/bank3"
+          href="/bank3"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -77,7 +77,7 @@ export default function Home() {
         </a>
 
         <a
-          href="http://localhost:3000/bank4"
+          href="/bank4"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
